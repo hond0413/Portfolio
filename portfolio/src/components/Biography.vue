@@ -24,7 +24,7 @@
     .biography{
         width: 100%;
         background: url(../assets/biography.jpeg) no-repeat 0px 100%;
-        background-size: 50% auto;
+        background-size: 45% auto;
     }
     .topic{
         margin-left: 12px;

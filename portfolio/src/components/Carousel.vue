@@ -8,7 +8,7 @@
                     </div>
                     <hr style="margin: 8px auto 16px auto; width: 80%;">
                     <div style="text-align: center;">
-                        <img :src="item.img" style="width: 70%;"/>
+                        <img :src="item.img" style="width: 70%; object-fit: cover; object-position: 0% 50%;"/>
                     </div>
                 </slide>
             </template>
@@ -50,16 +50,13 @@ export default {
 <style>
     .VueCarousel{
         margin-top: 10%;
-        height: 80%;
+        height: 85%;
     }
     .VueCarousel-wrapper, .VueCarousel-inner, .VueCarousel-slide{
         height: 100% !important;
     }
     .VueCarousel-slide .slider-inner {
         height: 100%;
-        display: flex; 
-        justify-content: center; 
-        align-items: center; 
         color: #fff; 
         border: 2px solid #fff;
         font-size: 30px; 
