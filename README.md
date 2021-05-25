@@ -14,8 +14,9 @@ https://portfolio-hond0413.web.app/#/
 * npm 6.14.11
 
 ## tool
-* vue/cli 4.5.12
+* VueCli
 * Vue 2
 * VueCarousel https://www.npmjs.com/package/vue-carousel
 * VueScrollTo https://www.npmjs.com/package/vue-scrollto
-* Vuetify 2.4.0
+* Vuetify 
+* firebase
