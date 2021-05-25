@@ -23,7 +23,7 @@
     .activity{
         width: 100%;
         background: url(../assets/activity.jpeg) no-repeat 100% 100%;
-        background-size: 50% auto;
+        background-size: 45% auto;
     }
     .topic{
         margin-left: 12px;
