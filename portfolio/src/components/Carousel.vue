@@ -29,7 +29,7 @@ export default {
                 {
                     title: '略歴',
                     img: require('@/assets/biography.jpeg'),
-                    scroll: '#biotgraphy'
+                    scroll: '#biography'
                 },
                 {
                     title: '活動',
