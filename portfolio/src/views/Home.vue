@@ -1,11 +1,11 @@
 <template>
   <div>
-    <top-page style="width: 90%; margin: auto;"></top-page>
+    <top-page id="topPage" style="width: 90%; margin: auto;"></top-page>
     <Carouselcomp style="width: 90%; margin: auto;"></Carouselcomp>
-    <introduction style="width: 90%; margin: auto;"></introduction>
-    <biography style="width: 90%; margin: auto;"></biography>
-    <activity style="width: 90%; margin: auto;"></activity>
-    <production style="width: 90%; margin: auto;"></production>
+    <introduction id="introduction" style="width: 90%; margin: auto;"></introduction>
+    <biography id="biography" style="width: 90%; margin: auto;"></biography>
+    <activity id="activity" style="width: 90%; margin: auto;"></activity>
+    <production id="production" style="width: 90%; margin: auto;"></production>
   </div>
 </template>
 

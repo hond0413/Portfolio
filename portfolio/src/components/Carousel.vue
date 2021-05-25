@@ -2,13 +2,13 @@
     <div style="height: 640px; margin: auto;">
         <carousel :per-page="1" :loop="true" :autoplay="true">
             <template v-for="item in items">
-                <slide :key="item.id" style="height: 100%;">
+                <slide :key="item.id" style="height: 100%;" v-scroll-to="item.scroll" to>
                     <div style="text-align: center;">
                         {{item.title}}
                     </div>
                     <hr style="margin: 8px auto 16px auto; width: 80%;">
                     <div style="text-align: center;">
-                        <img :src="item.img" style="width: 80%;"/>
+                        <img :src="item.img" style="width: 70%;"/>
                     </div>
                 </slide>
             </template>
@@ -23,19 +23,23 @@ export default {
             items: [
                 {
                     title: '自己紹介',
-                    img: require('@/assets/introduction.jpeg')
+                    img: require('@/assets/introduction.jpeg'),
+                    scroll: '#introduction'
                 },
                 {
                     title: '略歴',
-                    img: require('@/assets/biography.jpeg')
+                    img: require('@/assets/biography.jpeg'),
+                    scroll: '#biotgraphy'
                 },
                 {
                     title: '活動',
-                    img: require('@/assets/activity.jpeg')
+                    img: require('@/assets/activity.jpeg'),
+                    scroll: '#activity'
                 },
                 {
                     title: '製作物',
-                    img: require('@/assets/production.jpeg')
+                    img: require('@/assets/production.jpeg'),
+                    scroll: '#production'
                 },
             ]
         }
@@ -60,6 +64,9 @@ export default {
         border: 2px solid #fff;
         font-size: 30px; 
         border-radius: 10px;
+    }
+    .VueCarousel-slide:hover{
+        opacity: 0.5;
     }
 </style>
 

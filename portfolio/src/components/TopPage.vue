@@ -9,16 +9,16 @@
                     <div style="padding-top: 48px; margin-left: 36px;">
                         Honda Daiki
                     </div>
-                    <div class="topic">
+                    <div class="topic" v-scroll-to="'#introduction'" to>
                         自己紹介
                     </div>
-                    <div class="topic">
+                    <div class="topic" v-scroll-to="'#biography'" to>
                         略歴
                     </div>
-                    <div class="topic">
+                    <div class="topic" v-scroll-to="'#activity'" to>
                         活動
                     </div>
-                    <div class="topic">
+                    <div class="topic" v-scroll-to="'#production'" to>
                         製作物
                     </div>
                 </div>
@@ -44,7 +44,11 @@ export default {
     background-size: 50% auto;
 }
 .topic{
+    color: black;
     margin-left: 12px;
     padding-top: 24px;
+}
+.topic:hover{
+    opacity: 0.5;
 }
 </style>
